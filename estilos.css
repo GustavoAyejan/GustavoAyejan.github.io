@@ -1,0 +1,123 @@
+body, html {
+    margin: 1%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    height: 100%;
+}
+
+.barra_de_navegacion .icono_de_menu {
+  display: none;
+}
+
+@media screen and (max-width: 430px) {
+  .barra_de_navegacion button:not(:first-child) {display: none;}
+  .barra_de_navegacion button.icono_de_menu {
+    float: left;
+    display: block;
+  }
+  .center {
+    height:150px;
+    width:150px;
+  }
+}
+  
+@media screen and (max-width:430px) {
+  .barra_de_navegacion.responsiva {
+    position:relative;
+    overflow:visible;}
+  .barra_de_navegacion.responsiva button.icono_de_menu {
+    position:relative;
+    display:inline;
+    float:right;
+    width:35%;
+  }
+  .barra_de_navegacion.responsiva button {
+    float: none;
+    display: block;
+    text-align: left;
+    width:50%;
+  }
+}
+
+.barra_de_navegacion {
+  overflow: hidden;
+}
+
+.icono_de_menu {
+  position:relative;
+  background-color:peru;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 14px;
+  font-size: 17px;
+  height:fit-content;
+}
+
+.icono_de_menu:hover {
+  background-color:darkolivegreen;
+}
+
+.solapa {
+  position:relative;
+  background-color:peru;
+  color:black;
+  font-family:Arial, Helvetica, sans-serif;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  height:fit-content;
+}
+  
+.solapa:hover {
+  background-color:darkolivegreen;
+}
+  
+.contenido_solapa {
+  color:black;
+  background-color:bisque;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.center {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#h1_inicio {
+  background-color: antiquewhite;
+  text-align: center;
+  border-color: black;
+}
+
+#descargar_cv:hover {
+  cursor:pointer;
+  border-color:grey;
+  background-color:darksalmon;
+  color:blue;
+}
+
+#descargar_cv {
+  overflow:scroll;
+  position:fixed;
+  text-align: center;
+  margin:5%;
+  border-color:brown;
+  background-color: chocolate;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Parrafo_pie_de_pagina {
+  background-color: rgba(37, 37, 37, 0.29);
+  font-family: 'Courier New', Courier, monospace;
+  color:whitesmoke;
+}
