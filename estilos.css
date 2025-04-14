@@ -107,7 +107,7 @@ body, html {
 
 #pulperiasur_pagina {
   overflow:scroll;
-  position:fixed;
+  position:right;
   text-align: center;
   margin:5%;
   border-color:brown;
